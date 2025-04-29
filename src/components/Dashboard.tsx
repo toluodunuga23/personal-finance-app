@@ -1,7 +1,6 @@
 import React from "react";
 import { summaryCards } from "@/helper/data";
-import Image from "next/image";
-import Navbar from "@/components/Navbar";
+import Sidebar from "@/components/Sidebar";
 
 const Dashboard = () => {
   return (
@@ -31,7 +30,7 @@ const Dashboard = () => {
         ))}
       </div>
       </div>
-      <Navbar />
+      <Sidebar />
       </>
       
   );
