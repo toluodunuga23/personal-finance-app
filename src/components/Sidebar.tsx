@@ -8,6 +8,16 @@ const Navbar = () => {
                 </div>
                 <div className='gap-4 mt-20 '>
                 <ul className="space-y-12">
+                <li className="text-white hover:text-gray-300">
+                        <a href="/" className="flex items-center ">
+                            <span className="mr-2">🏠</span> Home
+                        </a>
+                    </li>
+                    <li className="text-white hover:text-gray-300">
+                        <a href="/learning" className="flex items-center">
+                            <span className="mr-2">📚</span>Learning
+                        </a>
+                    </li>
                    <li className="text-white hover:text-gray-300">
                         <a href="/create-meal" className="flex items-center ">
                             <span className="mr-2">💰</span> Budgets
@@ -16,11 +26,6 @@ const Navbar = () => {
                     <li className="text-white hover:text-gray-300">
                         <a href="/create-meal" className="flex items-center">
                             <span className="mr-2">📈</span> Stocks
-                        </a>
-                    </li>
-                    <li className="text-white hover:text-gray-300">
-                        <a href="/create-meal" className="flex items-center">
-                            <span className="mr-2">📚</span>Learning
                         </a>
                     </li>
                     <li className="text-white hover:text-gray-300">
