@@ -20,7 +20,7 @@ const Navbar = () => {
                     </li>
                    <li className="text-white hover:text-gray-300">
                         <a href="/budget" className="flex items-center ">
-                            <span className="mr-2">💰</span> Budgets
+                            <span className="mr-2">💰</span> My Budget
                         </a>
                     </li>
                     <li className="text-white hover:text-gray-300">

@@ -1,8 +1,15 @@
+
+'use client'
 import Sidebar from "@/components/Sidebar";
+import { useSelector } from "react-redux";
+import { RootState } from "@/state/store";
+
 const Learning = () => {
+   const budget = useSelector((state: RootState) => state.initalState.value);
   return (
     <div className="flex flex-col items-start justify-start ml-70 mt-10 ">
       <h1 className="text-2xl bold ">About Stocks</h1>
+      <h2>{budget}</h2>
       <p className="text-gray-500 mt-3">
         Stocks are a type of investment that represents ownership in a company
         or organization. When you buy a stock, you become a shareholder in the
