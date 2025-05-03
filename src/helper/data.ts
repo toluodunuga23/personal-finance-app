@@ -21,6 +21,89 @@ export const summaryCards = [
   },
 ];
 
+export const needsBudget = [
+  {
+    title: "Rent",
+    value: "$1,000",
+    icon: "🏠",
+  },
+  {
+    title: " Total Utilities",
+    value: "$200",
+    icon: "⚡",
+  },
+  {
+    title: "Food",
+    value: "$300",
+    icon: "🍽️",
+  },
+  {
+    title: "Transportation",
+    value: "$300",
+    icon: "🚗",
+  },
+  {
+    title: "Insurance",
+    value: "$300",
+    icon: "🏠",
+  },
+  {
+    title: "Healthcare",
+    value: "$300",
+    icon: "🏠",
+  },
+
+];
+
+export const wantsBudget = [
+  {
+    title: "Subscriptions",
+    value: "$100",
+    icon: "🎬",
+  },
+  {
+    title: "Travel",
+    value: "$200",
+    icon: "✈️",
+  },
+  {
+    title:'Eating Out',
+    value: "$300",
+    icon: "🍽️",
+  },
+  {
+    title: "Shopping",
+    value: "$300",
+    icon: "🛍️",
+  },
+];
+
+export const savingsBudget = [
+  {
+    title: "Savings",
+    value: "$100",
+    icon: "💰",
+  },
+  {
+    title: "Retirement",
+    value: "$200",
+    icon: "👴",
+  },
+  {
+    title: "Debt Repayment",
+    value: "$200",
+    icon: "💸",
+  },
+  {
+    title:"Vacation",
+    value:"$200",
+    icon:"✈️"
+  }
+];
+
+
+
+
 export const budgetTypes = [
   {
     title: "50/30/20 Budget",
@@ -37,9 +120,9 @@ export const budgetTypes = [
     description:
       "Typically 50–70% savings rate, with only 30–50% spent on essentials and lifestyle.",
   },
-  {
-    title: "Custom",
-    description:
-      "Create your own budget based on your specific needs and goals.",
-  },
+  // {
+  //   title: "Custom",
+  //   description:
+  //     "Create your own budget based on your specific needs and goals.",
+  // },
 ];
