@@ -23,7 +23,7 @@ const Navbar = () => {
                             <span className="mr-2">💰</span> My Budget
                         </a>
                     </li>
-                    <li className="text-white hover:text-gray-300">
+                    {/* <li className="text-white hover:text-gray-300">
                         <a href="/create-meal" className="flex items-center">
                             <span className="mr-2">📈</span> Stocks
                         </a>
@@ -32,7 +32,7 @@ const Navbar = () => {
                         <a href="/create-meal" className="flex items-center">
                             <span className="mr-2">⚙️</span> Settings
                         </a>
-                    </li>
+                    </li> */}
                 </ul>
                 </div>
                 </div>
