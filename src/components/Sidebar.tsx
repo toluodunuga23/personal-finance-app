@@ -24,15 +24,16 @@ const Navbar = () => {
                         </a>
                     </li>
                     <li className="text-white hover:text-gray-300">
-                        <a href="/create-meal" className="flex items-center">
+                        <a href="/my-stocks" className="flex items-center">
                             <span className="mr-2">📈</span> Stocks
                         </a>
                     </li>
-                    <li className="text-white hover:text-gray-300">
+
+                    {/* <li className="text-white hover:text-gray-300">
                         <a href="/create-meal" className="flex items-center">
                             <span className="mr-2">⚙️</span> Settings
                         </a>
-                    </li>
+                    </li>  */}
                 </ul>
                 </div>
                 </div>

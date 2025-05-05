@@ -29,10 +29,10 @@ const Dashboard = () => {
         </p>
         </div>
       <div className="flex flex-col items-start justify-start ml-70 mt-4  ">
-        <h2>{currentBudget}</h2>
+        {/* <h2>{currentBudget}</h2>
         <button onClick={() => dispatch(increment())}>Increment</button>
         <button onClick={() => dispatch(decrement())}>Decrement</button>
-        <button onClick={() => dispatch(reset())}>Reset</button>
+        <button onClick={() => dispatch(reset())}>Reset</button> */}
         <div className="grid grid-cols-4  gap-9 place-items-center mt-6 ">
           {summaryCards.map((card, index) => (
             <div
