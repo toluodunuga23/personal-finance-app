@@ -36,6 +36,19 @@ const Learning = () => {
           exposure to the U.S. stock market.
         </li>
       </ul>
+      <h5 className="text-lg bold mt-3">Mutual Funds</h5>
+      <p className="text-gray-500 mt-3">
+        Mutual funds are a type of investment that allows you to buy a
+        diversified portfolio of stocks or bonds. Mutual funds are a popular
+        way to invest in the stock market, and they can be a good way to grow
+        your wealth over time.
+      </p>
+      <p className="mt-4 text-md">Difference betwen ETFs and Mutual Funds</p>
+      <p className="text-gray-500 mt-3">
+        ETFs and mutual funds are both types of investment vehicles that allow
+        investors to purchase a diversified portfolio of stocks or bonds. However,
+        there are some key differences between the two.
+      </p>
       <Sidebar />
     </div>
   );
