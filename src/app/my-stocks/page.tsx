@@ -69,11 +69,9 @@ const MyStocks = () => {
     
     if (timeSeries) {
       const dateTime = Object.keys(timeSeries); //Obj in array
-      console.log("Date Time", dateTime)
       const values = Object.values(timeSeries); //Obj in array
-      console.log("Values", values)
       const closeValues = values.map((value: any) => value["4. close"]);
-      console.log("Close Values", closeValues)
+
       const chartData = dateTime.map((dateTime: any, index: number) => ({
         month: dateTime,
         closePrice: closeValues[index],

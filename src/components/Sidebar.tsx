@@ -1,5 +1,6 @@
 
 const Navbar = () => {
+
     return(
         <>
              <div className="flex flex-col items-start bg-slate-800 h-full w-64 fixed z-1 top-0 left-0 p-4">

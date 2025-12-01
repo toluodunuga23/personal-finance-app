@@ -12,6 +12,7 @@ import {
   incrementAsync,
 } from "@/state/budget/budgetSlice";
 import { AppDispatch } from "@/state/store";
+import { useApi } from "@/hooks/useApi";
 
 const Dashboard = () => {
   const currentBudget = useSelector((state: RootState) => state.initalState.value);
