@@ -7,14 +7,17 @@ import { Button } from "@/components/ui/button";
 type BudgetTypeProps = {
   activeStep: number;
   setActiveStep: (step: number) => void;
+  setSelectedBudgetType: (budgetType: string) => void;
+  selectedBudgetType: string | null;
 };
 
-export default function BudgetType({
+export default function BudgetBackground({
   activeStep,
   setActiveStep,
+  selectedBudgetType,
+  setSelectedBudgetType,
 }: BudgetTypeProps) {
   const [monthlyIncome, setMonthlyIncome] = useState("");
-  const [selectedBudgetType, setSelectedBudgetType] = useState(null);
 
   const handleBudgetType = (card: any) => {
     setSelectedBudgetType(card);
@@ -38,7 +41,10 @@ export default function BudgetType({
         {budgetTypes.map((card, index) => (
           <div
             key={index}
-            onClick={() => handleBudgetType(card.title)}
+            onClick={() => {
+              handleBudgetType(card.title);
+              setSelectedBudgetType(card.title);
+            }}
             className={`bg-white p-4 rounded-lg shadow-md w-60 h-50 border-2 border-gray-300 ${
               selectedBudgetType === card.title ? "border-green-300" : ""
             }`}
@@ -60,7 +66,7 @@ export default function BudgetType({
           className={`flex items-center justify-center  ${
             selectedBudgetType ? "bg-green-500" : "bg-gray-500"
           }`}
-          disabled={!selectedBudgetType}
+          disabled={!selectedBudgetType || monthlyIncome === ""}
           onClick={() => setActiveStep(activeStep + 1)}
         >
           Create Your Budget
